@@ -208,11 +208,29 @@ select {
 
 table {
     /* Стили для таблицы */
+    border-collapse: collapse;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: 1140px;
+
 }
 
 th,
 td {
     /* Стили для ячеек таблицы */
+    border: 1px solid #95a1bb;
+    padding: 11px 38px 12px 15px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+}
+
+th {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
 }
 
 footer {
