@@ -151,10 +151,51 @@ select {
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    /* Box Model */
+    width: 330px;
+    /* Ширина текстового поля */
+    height: 36px;
+    /* Висота текстового поля */
+    border: 1px solid #3030304d;
+    /* Границя текстового поля */
+    border-radius: 5px;
+    /* Скруглення кутів */
+    background: #ffffff00;
+    /* Фон (прозорий) */
+
+    /* Внутрішні відступи */
+    padding-top: 8px;
+    /* Відступ зверху */
+    padding-right: 215px;
+    /* Відступ справа */
+    padding-bottom: 8px;
+    /* Відступ знизу */
+    padding-left: 12px;
+    /* Відступ зліва */
+
+    /* Typography для введеного тексту */
+    font-weight: 400;
+    /* Товщина шрифта */
+    font-size: 16px;
+    /* Розмір шрифта */
+    color: #303030;
+    /* Колір тексту (непрозорий) */
 }
+
 
 .button {
     /* Стили для кнопки */
+    border: none;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    border-radius: 5px;
+    padding: 10px 27px 9px 29px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    /*Наступне не обов`язково*/
+    cursor: pointer;
 }
 
 .line {
