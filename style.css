@@ -56,8 +56,7 @@ header span {
 .about-section {
     /* Стили для второй секции */
     background-color: #fff;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 100px 0px;
 }
 
 select {
@@ -115,7 +114,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(Vector.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     background-size: 18px 18px;
     background-color: #fff;
     /* Колір фону */
@@ -129,7 +128,7 @@ select {
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     /* Товщина шрифта */
     font-size: 16px;
@@ -220,16 +219,16 @@ th,
 td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95a1bb;
-    padding: 8px 15px;
+    padding: 12px 15px;
     text-align: left;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #303030;
 }
 
 th {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     color: #303030;
 }
