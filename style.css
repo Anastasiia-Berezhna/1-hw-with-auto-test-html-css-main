@@ -220,7 +220,7 @@ th,
 td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95a1bb;
-    padding: 11px 38px 12px 15px;
+    padding: 8px 15px;
     text-align: left;
     font-weight: 400;
     font-size: 14px;
@@ -237,8 +237,7 @@ th {
 footer {
     /* Стили для футера */
     background-color: #a3a7ff4d;
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding: 26px 0px;
 }
 
 .footer-link {
