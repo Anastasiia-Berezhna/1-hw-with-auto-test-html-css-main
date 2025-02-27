@@ -200,6 +200,10 @@ select {
 
 .line {
     /* Стили для линии */
+    border: none;
+    border: 1px solid #3030304d;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 table {
